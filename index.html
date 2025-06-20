@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maely Amorim Fotografia - Capturando momentos que duram para sempre</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Maely Amorim Fotografia</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#budget">Orçamento</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Capturando momentos que duram para sempre</h1>
+                <p>Transformo seus momentos especiais em memórias eternas através da fotografia profissional</p>
+                <div class="hero-buttons">
+                    <a href="#budget" class="btn btn-primary">Peça seu orçamento</a>
+                    <a href="#portfolio" class="btn btn-secondary">Veja portfólio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-image.jpg" alt="Fotografia profissional">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Mim</h2>
+                    <p>Sou Maely Amorim, fotógrafa em início de carreira, mas com uma grande paixão por registrar momentos especiais.
+Desde a adolescência, a fotografia faz parte da minha vida — e agora estou dando os primeiros passos para transformar esse amor em profissão. Cada clique é uma nova descoberta, e estou comprometida em evoluir constantemente, entregando registros que transmitam emoção, autenticidade e cuidado.
+
+Mesmo no começo da jornada, encaro cada ensaio com dedicação e sensibilidade, buscando capturar a essência de cada pessoa, gesto e sentimento. Meu objetivo é oferecer uma experiência leve, natural e significativa, onde você se sinta à vontade e confiante.
+
+Se você valoriza registros feitos com carinho e alma, será um prazer começar essa caminhada junto com você — transformando instantes simples em lembranças eternas..</p>
+                    
+                    <p>Especializo-me em fotografia de casamento, gestante, família e eventos corporativos. Meu estilo combina técnica apurada com sensibilidade artística, sempre buscando capturar a essência natural de cada momento.</p>
+                    
+                    <p><strong>Atendimento:</strong> Fortaleza e região metropolitana</p>
+                    
+                    <div class="experience-stats">
+                        <div class="stat">
+                            <h3>0+</h3>
+                            <p>Casamentos fotografados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>0</h3>
+                            <p>Anos de experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>0+</h3>
+                            <p>Clientes satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about-image.jpg" alt="Ana Silva trabalhando">
+                </div>
+            </div>
+            
+            <!-- Testimonials -->
+            <div class="testimonials">
+                <h3>Depoimentos</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <p>"Ana capturou perfeitamente a emoção do nosso casamento. As fotos ficaram lindas!"</p>
+                        <cite>- Maria e João, São Paulo</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Profissional excepcional! Recomendo para todas as futuras mamães."</p>
+                        <cite>- Carla Santos, Guarulhos</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Trabalho impecável e atendimento personalizado. Superou nossas expectativas!"</p>
+                        <cite>- Família Oliveira, Osasco</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="wedding">Casamento</button>
+                <button class="filter-btn" data-filter="maternity">Gestante</button>
+                <button class="filter-btn" data-filter="family">Família</button>
+                <button class="filter-btn" data-filter="events">Eventos</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="wedding">
+                    <img src="assets/images/portfolio-1.jpg" alt="Casamento">
+                    <div class="portfolio-overlay">
+                        <h4>Casamento Romântico</h4>
+                        <p>São Paulo</p>
+                    </div>
+                </div>
+                <!-- Mais itens do portfólio serão adicionados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Serviços e Preços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Casamento</h3>
+                    <ul>
+                        <li>Cobertura completa do evento</li>
+                        <li>200+ fotos editadas</li>
+                        <li>Álbum digital</li>
+                        <li>Duração: 8-12 horas</li>
+                    </ul>
+                    <p class="price">A partir de R$ 2.500</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-baby"></i>
+                    <h3>Gestante</h3>
+                    <ul>
+                        <li>Ensaio de 1-2 horas</li>
+                        <li>50+ fotos editadas</li>
+                        <li>Galeria online</li>
+                        <li>Locação ou estúdio</li>
+                    </ul>
+                    <p class="price">A partir de R$ 450</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Família</h3>
+                    <ul>
+                        <li>Ensaio de 1 hora</li>
+                        <li>40+ fotos editadas</li>
+                        <li>Galeria online</li>
+                        <li>Ambiente natural</li>
+                    </ul>
+                    <p class="price">A partir de R$ 350</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Aniversários</h3>
+                    <ul>
+                        <li>Cobertura de 3-4 horas</li>
+                        <li>100+ fotos editadas</li>
+                        <li>Galeria online</li>
+                        <li>Momentos especiais</li>
+                    </ul>
+                    <p class="price">A partir de R$ 600</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Corporativo</h3>
+                    <ul>
+                        <li>Eventos empresariais</li>
+                        <li>Fotos editadas</li>
+                        <li>Entrega em 48h</li>
+                        <li>Uso comercial</li>
+                    </ul>
+                    <p class="price">Sob consulta</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Formatura</h3>
+                    <ul>
+                        <li>Cerimônia completa</li>
+                        <li>Fotos individuais</li>
+                        <li>Galeria online</li>
+                        <li>Duração: 4-6 horas</li>
+                    </ul>
+                    <p class="price">A partir de R$ 800</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Budget Generator Section -->
+    <section id="budget" class="budget">
+        <div class="container">
+            <h2>Gerador de Orçamento</h2>
+            <div class="budget-form">
+                <form id="budgetForm">
+                    <div class="form-group">
+                        <label for="serviceType">Tipo de Ensaio:</label>
+                        <select id="serviceType" required>
+                            <option value="">Selecione o tipo</option>
+                            <option value="wedding" data-price="2500">Casamento</option>
+                            <option value="maternity" data-price="450">Gestante</option>
+                            <option value="family" data-price="350">Família</option>
+                            <option value="birthday" data-price="600">Aniversário</option>
+                            <option value="corporate" data-price="1000">Corporativo</option>
+                            <option value="graduation" data-price="800">Formatura</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="duration">Duração:</label>
+                        <select id="duration">
+                            <option value="1">1 hora</option>
+                            <option value="2">2 horas</option>
+                            <option value="3">3 horas</option>
+                            <option value="4">4 horas</option>
+                            <option value="6">6 horas</option>
+                            <option value="8">8 horas</option>
+                            <option value="12">12 horas</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="location">Local:</label>
+                        <select id="location">
+                            <option value="local">Fortaleza (capital)</option>
+                            <option value="metropolitan">Região metropolitana de Fortaleza (+R$ 100)</option>
+                            <option value="interior">Outras cidades do Ceará (+R$ 200)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="extraPhotos">Fotos extras:</label>
+                        <input type="number" id="extraPhotos" min="0" max="100" value="0">
+                        <small>R$ 5 por foto adicional</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="clientName">Seu nome:</label>
+                        <input type="text" id="clientName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="clientPhone">WhatsApp:</label>
+                        <input type="tel" id="clientPhone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="clientEmail">E-mail:</label>
+                        <input type="email" id="clientEmail" required>
+                    </div>
+                    
+                    <button type="button" id="calculateBudget" class="btn btn-primary">Calcular Orçamento</button>
+                </form>
+                
+                <div id="budgetResult" class="budget-result" style="display: none;">
+                    <h3>Seu Orçamento</h3>
+                    <div class="budget-details">
+                        <p><strong>Serviço:</strong> <span id="resultService"></span></p>
+                        <p><strong>Duração:</strong> <span id="resultDuration"></span></p>
+                        <p><strong>Local:</strong> <span id="resultLocation"></span></p>
+                        <p><strong>Fotos extras:</strong> <span id="resultExtraPhotos"></span></p>
+                        <p class="total-price"><strong>Total: R$ <span id="resultTotal"></span></strong></p>
+                    </div>
+                    <button id="sendWhatsApp" class="btn btn-success">
+                        <i class="fab fa-whatsapp"></i> Enviar para WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(85)9 8961-5384</p>
+                            <a href="https://wa.me/558589615384" target="_blank" class="btn btn-success">
+                                Chamar no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p>@anasilvafotografia</p>
+                            <a href="https://instagram.com/anasilvafotografia" target="_blank" class="btn btn-secondary">
+                                Seguir no Instagram
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@anasilvafotografia.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Fortaleza, CE</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Formulário de Contato</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="contactPhone" placeholder="Seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <select id="contactService">
+                                <option value="">Tipo de serviço</option>
+                                <option value="wedding">Casamento</option>
+                                <option value="maternity">Gestante</option>
+                                <option value="family">Família</option>
+                                <option value="birthday">Aniversário</option>
+                                <option value="corporate">Corporativo</option>
+                                <option value="graduation">Formatura</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" placeholder="Sua mensagem" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Quanto tempo para entregar as fotos?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O prazo de entrega varia conforme o tipo de serviço: ensaios são entregues em até 7 dias úteis, casamentos em até 30 dias úteis.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>As fotos são entregues em pen drive?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Além da galeria online, você recebe todas as fotos editadas em pen drive personalizado sem custo adicional.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Posso escolher as fotos que serão editadas?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Eu faço uma pré-seleção das melhores fotos e você pode solicitar ajustes. Todas as fotos entregues passam por edição profissional.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Você atende fora de São Paulo?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Atendo toda a região metropolitana e interior de São Paulo. Para locais mais distantes, há uma taxa de deslocamento.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Qual é a sua política de cancelamento?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Cancelamentos com até 30 dias de antecedência têm reembolso de 50% do valor pago. Reagendamentos são gratuitos com 15 dias de antecedência.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Maely Amorim Fotografia</h3>
+                    <p>Capturando momentos que duram para sempre</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/anasilvafotografia" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:contato@anasilvafotografia.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#services">Casamento</a></li>
+                        <li><a href="#services">Gestante</a></li>
+                        <li><a href="#services">Família</a></li>
+                        <li><a href="#services">Eventos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#budget">Orçamento</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@anasilvafotografia.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Maely Amorim Fotografia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
